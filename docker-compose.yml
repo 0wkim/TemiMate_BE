@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  backend:
+    build: .
+    container_name: temimate_be
+    # 호스트:컨테이너
+    ports:
+      - "5000:5000"
+    # 지금 쓰고 있는 .env 그대로 사용
+    env_file:
+      - .env
+    restart: always

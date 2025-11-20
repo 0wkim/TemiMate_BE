@@ -1,0 +1,27 @@
+{
+  "name": "temimate_be",
+  "version": "1.0.0",
+  "description": "뚜벅 Temi 프로젝트 백엔드 Repository",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0wkim/TemiMate_BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/0wkim/TemiMate_BE/issues"
+  },
+  "homepage": "https://github.com/0wkim/TemiMate_BE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.4"
+  }
+}
