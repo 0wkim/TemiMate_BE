@@ -17,7 +17,7 @@ const gameSchema = new mongoose.Schema(
   {
     timestamps: {
       createdAt: "created_at",
-    }
+    },
   }
 );
 
